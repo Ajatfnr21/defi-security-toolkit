@@ -1,0 +1,32 @@
+[
+  {
+    "from": "0xattacker",
+    "to": "0xAAVE_LENDING_POOL",
+    "input": "flashLoan(1000000,0xattacker,0,0x0)",
+    "value": 0
+  },
+  {
+    "from": "0xattacker",
+    "to": "0xUNISWAP_PAIR",
+    "input": "swap(1000,0,0xattacker,0x0)",
+    "value": 0
+  },
+  {
+    "from": "0xattacker",
+    "to": "0xVICTIM_CONTRACT",
+    "input": "liquidate(0xvictim)",
+    "value": 0
+  },
+  {
+    "from": "0xattacker",
+    "to": "0xUNISWAP_PAIR",
+    "input": "swap(0,900,0xattacker,0x0)",
+    "value": 0
+  },
+  {
+    "from": "0xattacker",
+    "to": "0xAAVE_LENDING_POOL",
+    "input": "repay(1000000)",
+    "value": 0
+  }
+]
